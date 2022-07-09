@@ -1,0 +1,10 @@
+playground
+__pycache__
+.pytest_cache
+.venv
+.vscode
+
+# AWS CDK
+.cdk.staging
+cdk.out
+cdk.context.json

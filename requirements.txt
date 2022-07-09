@@ -1,0 +1,7 @@
+# AWS
+aws-cdk-lib==2.29.1
+constructs>=10.0.0,<11.0.0
+boto3<=1.24.2,<2.0.0
+
+# Other
+envyaml

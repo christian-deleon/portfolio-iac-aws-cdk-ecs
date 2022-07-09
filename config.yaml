@@ -1,0 +1,25 @@
+# https://github.com/thesimj/envyaml
+# Use $ENV_NAME to retrieve environment variable
+
+# Set both values to None if not using a domain name. Note that you will not be able to use other_regions.
+route53:
+  zone_name: christiandeleon.me
+  domain_name: christiandeleon.me # Match zone_name if not using a subdomain e.g. christiandeleon.me
+
+account:
+  id: "$PORTFOLIO_ACCT_ID" # Retrieve from environment variable or replace with your account id in string format
+  main_region: us-east-1
+  other_regions: [
+    us-west-1, 
+    # eu-west-2
+  ]
+
+# Repository most be dockerized with the Dockerfile at the root level
+github:
+  owner: christian-deleon # GitHub account name
+  repo: portfolio-website # GitHub repository name
+
+ecs:
+  desired_count: 2 # Desired task count per region
+  cpu: 256
+  memory_limit_mib: 512
