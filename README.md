@@ -57,7 +57,7 @@ If you would like to purchase your own domain name through AWS Route53 follow th
 
 1. If you do not already have a hosted zone in Route53 ([AWS Guide](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/CreatingHostedZone.html))
 
-   1. Go to [Route53](console.aws.amazon.com/route53)
+   1. Go to [Route53](https://console.aws.amazon.com/route53)
    2. If you're new to Route 53, choose Get started under DNS management.
    3. If you're already using Route 53, choose `Hosted zones` in the navigation pane.
    4. Choose `Create hosted zone`.
@@ -66,7 +66,7 @@ If you would like to purchase your own domain name through AWS Route53 follow th
    7. Choose `Create`.
 
 2. Update domain name servers ([AWS Guide](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-name-servers-glue-records.html#domain-name-servers-glue-records-adding-changing))
-   1. Go to [Route53](console.aws.amazon.com/route53)
+   1. Go to [Route53](https://console.aws.amazon.com/route53)
    2. In the navigation pane, choose `Registered Domains`.
    3. Choose the name of the domain for which you want to edit settings.
    4. Choose `Add or edit name servers`.
@@ -101,7 +101,7 @@ Decide which architecture you would like to deploy and follow the instructions f
 
 6. Accepting the GitHub connection 
    
-   1. Go to [AWS CodeStar Connections](https://us-east-1.console.aws.amazon.com/codesuite/settings/connections).
+   1. Go to [AWS CodeStar Connections](https://console.aws.amazon.com/codesuite/settings/connections).
    2. Choose the `github-portfolio-connection-ecs` connection.
    3. Click `Update pending connection`.
 
