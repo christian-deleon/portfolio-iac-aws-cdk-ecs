@@ -107,14 +107,14 @@ Decide which architecture you would like to deploy and follow the instructions f
 
 7. Deploy the PersistentParentStack and PipelineStackECS stacks:
    ```bash
-   cdk deploy PersistentParentStack PipelineStack --require-approval="never"
+   cdk deploy PersistentParentStack PipelineStack
    ```
 
 8. Go to the [AWS CodePipeline Console](https://console.aws.amazon.com/codesuite/codepipeline/pipelines) and wait for the `PipelineStackECS` pipeline to finish.
 
 9.  Deploy the remaining stacks:
    ```bash
-   cdk deploy --all --require-approval="never"
+   cdk deploy --all
    ``` 
 
 ## Updating ECS configuration
@@ -123,7 +123,7 @@ Decide which architecture you would like to deploy and follow the instructions f
 
 2. Re-deploy stacks:
    ```bash
-   cdk deploy --all --require-approval="never"
+   cdk deploy --all
    ``` 
 
 ## Destroying this infrastructure
